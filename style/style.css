@@ -300,7 +300,6 @@ text-align: left;
 .inspiration-container{
   max-width: 1080px;
   min-height: 718px;
-  border: 2px solid red;
   align-items: center;
   margin: 0 auto;
   margin-top: 70px;
@@ -309,14 +308,12 @@ text-align: left;
 .text-content{
   width: 852px;
   height: 115px;
-  border: 2px solid green;
   align-items: center;
   margin: 0 auto;
 }
 .video-container{
   max-width: 1076px;
   min-height: 550px;
-  border: 2px solid palevioletred;
   align-items: center;
   margin: 0 auto;
   margin-top: 48px;
@@ -341,7 +338,7 @@ text-align: left;
 }
 .text-content p{
 color: rgb(13, 19, 33);
-font-family: Azeret Mono;
+font-family: "Inter", sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
@@ -359,5 +356,170 @@ iframe{
   border-radius: 16px;
   
 }
+/* taget-section- start */
+.Current-target-container{
+  max-width: 1080px;
+  min-height: 462px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 150px;
+  
 
+}
+.target-text-content{
+  width: 852px;
+  height: 115px;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.target-text-content h2{
+  color: rgb(13, 19, 33);
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  
+}
+.target-text-content p{
+  color: rgb(13, 19, 33);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 15px;
 
+}
+.skill-container{
+  max-width: 1140px;
+  min-height: 299px;
+  display: flex;
+  margin-top: 48px;
+  gap: 24px;
+}
+.skill-content{
+  position: static;
+  width: 284px;
+  height: 219px;
+  position: static;
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+ 
+}
+.html-content{
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px 40px 40px 40px;
+  border-radius: 16px;
+}
+.html-content h2{
+color: rgb(13, 19, 33);
+font-family: "Inter", sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+}
+.html-content p{
+  color: rgb(13, 19, 33);
+  font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+}
+.html-content h5{
+  color: rgb(13, 19, 33);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-top: 10px;
+}
+.css-content{
+  padding: 40px 40px 40px 40px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.css-content h2{
+  color: rgb(13, 19, 33);
+  font-family: "Inter", sans-serif;
+ font-size: 24px;
+ font-weight: 600;
+ line-height: 36px;
+ letter-spacing: 0%;
+ text-align: left;
+ margin-top: 20px;
+}
+.css-content p{
+  color: rgb(13, 19, 33);
+  font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+.css-content h5{
+  color: rgb(13, 19, 33);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-top: 10px;
+}
+.js-content{
+  padding: 40px 40px 40px 40px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.js-content h2{
+  color: rgb(13, 19, 33);
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 20px;
+}
+.js-content p{
+  color: rgb(13, 19, 33);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin: 8px;
+
+}
+.js-content h5{
+  color: rgb(13, 19, 33);
+  font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
